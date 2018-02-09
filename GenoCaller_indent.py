@@ -6,8 +6,8 @@
 ###Three files are created:
 ###An emit all vcf file noting the call for all base pairs in the bed file
 ###This version of the program will take any genotype with a low quality heterozygote call (default GQ=30) and convert to the next best homozygote call
-###An vcf file with only those sites with evidence for at least one alternative allele and that passes a predetermined QUAL filter 
-###An haploid emit all vcf, that gives you the most likely base under a haploid model. If two or more basepairs are tied, the reported allele is randomly chosen.
+###A vcf file with only those sites with evidence for at least one alternative allele and that passes a predetermined QUAL filter 
+###A haploid emit all vcf, that gives you the most likely base under a haploid model. If two or more basepairs are tied, the reported allele is randomly chosen.
 ###to run type:
 ##GenoCaller_indent.py <indexed bamfile> <bed file> <reference genome> <indent>
 
