@@ -3,7 +3,7 @@
 
 ###This program calls genotypes from bam files while taking into account post mortem damage in UDG-half treated file by ignoring the ends of reads, and only sampling one read randomly.
 ###One file is created:
-###An emit all vcf file noting the call for all base pairs in the bed file
+###A emit all vcf file noting the call for all base pairs in the bed file
 ##GenoCaller_indent_randread.py <indexed bamfile> <bed file> <reference genome> <indent>
 
 
