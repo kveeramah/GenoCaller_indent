@@ -280,7 +280,7 @@ out3='##fileformat=Custom variant caller with indented reads, emit all haploid\n
 outA='##Caller_arguments=<MappingQuality_filter='+str(MQ)+',BaseQuality_filter='+str(BQ)
 outA=outA+',GenotypeQuality_filter='+str(GQ)+',minRD='+str(min_RD)
 outA=outA+',bam_in='+filenamein+',bedfile='+filenameinB
-outA=outA+',indent='+str(indent+'>\n'
+outA=outA+',indent='+str(indent)+'>\n'
 outB='##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes, for each ALT allele, in the same order as listed">\n'
 outB=outB+'##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency, for each ALT allele, in the same order as listed">\n'
 outB=outB+'##INFO=<ID=MQ,Number=1,Type=Float,Description="mean Mapping Quality (not RMS)">\n'
