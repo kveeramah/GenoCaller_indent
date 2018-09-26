@@ -103,7 +103,7 @@ out1='##fileformat=VCFv4.1\n'
 outA='##Caller_arguments=<MappingQuality_filter='+str(MQ)+',BaseQuality_filter='+str(BQ)
 outA=outA+',minRD='+str(min_RD)
 outA=outA+',bam_in='+filenamein+',bedfile='+filenameinB
-outA=outA+',indent='+str(indent+'>\n'
+outA=outA+',indent='+str(indent)+'>\n'
 outB='##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes, for each ALT allele, in the same order as listed">\n'
 outB=outB+'##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency, for each ALT allele, in the same order as listed">\n'
 
