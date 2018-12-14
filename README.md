@@ -7,6 +7,6 @@ Three files are created: An emit all vcf file noting the call for all base pairs
 
 To run aDNA_GenoCaller type:
 
-./GenoCaller_indent.py indexed bamfile bed file reference genome indent
+./GenoCaller_indent.py indexed_bamfile bed_file reference_genome indent
 
 An additional script is included that can be run in the same way (GenoCaller_indent_randread.py) which performs genotyping using only a single random read from a target site. The output is an emit all vcf.
